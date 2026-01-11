@@ -5,13 +5,19 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/src/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <title>qr-project</title>
   </head>
-  <body>
-    <div class="">
-      <img class="" src="./src/assets/images/image-qr-code.png" alt="qr-code">
-      <p>Improve your Front-end skills by building projects</p>
-      <span>Scan the QR code to visit Frontend Mentor and Take your coding skills to the next level</span>
+  <body class="px-2 h-screen flex justify-center items-center bg-slate-300">
+    <div class="p-4 overflow-hidden bg-white max-w-80 shadow-2xl  rounded-2xl">
+        <img class="rounded-lg " src="./src/assets/images/image-qr-code.png" alt="QR code for visit Frontend Mentor">
+      <div class="flex flex-col items-center px-4 mt-6 mb-3 gap-4">
+        <h1 class="leading-[1.2] text- text-center text-slate-900 text-[22px] font-bold ">Improve your Front-end skills by building projects</h1>
+        <p class="leading-[1.4] text-center text-[15px] text-slate-500">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>  
+      </div>
     </div>
   </body>
 </html>
